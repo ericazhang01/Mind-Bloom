@@ -21,10 +21,16 @@ public class ObjectSaver : MonoBehaviour
         //DontDestroyOnLoad(mainMenu);
     }
 
+    
+
     public void AddMoney(int x) {
         money += x;
         coinAmount.text = "" + money;
     }
+
+    
+       
+    
     // Update is called once per frame
     void Update()
     {
